@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.8">
+        <animate attributeName="stop-opacity" values="0.8;0.5;0.8" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#7b2ff7" stop-opacity="0.6">
+        <animate attributeName="stop-opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0.8">
+        <animate attributeName="stop-opacity" values="0.8;0.5;0.8" dur="3s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <pattern id="pattern1" patternUnits="userSpaceOnUse" width="100" height="100" patternTransform="scale(0.5) rotate(0)">
+      <rect width="100%" height="100%" fill="url(#gradient1)"/>
+      <circle cx="25" cy="25" r="20" fill="white" fill-opacity="0.1"/>
+      <circle cx="75" cy="75" r="20" fill="white" fill-opacity="0.1"/>
+      <circle cx="75" cy="25" r="10" fill="white" fill-opacity="0.2"/>
+      <circle cx="25" cy="75" r="10" fill="white" fill-opacity="0.2"/>
+      <line x1="0" y1="0" x2="100" y2="100" stroke="white" stroke-opacity="0.3" stroke-width="0.5"/>
+      <line x1="100" y1="0" x2="0" y2="100" stroke="white" stroke-opacity="0.3" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="url(#pattern1)"/>
+</svg>

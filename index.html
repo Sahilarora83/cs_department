@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic CS Universe - Computer Science Department</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+  <div id="loading-screen">
+    <div class="loader">
+      <div class="logo-container">
+        <!-- Logo will be animated here -->
+      </div>
+      <div class="loading-text">Initializing Cosmic CS Universe</div>
+      <div class="loading-progress-container">
+        <div class="loading-progress-bar"></div>
+        <div class="loading-percentage">0%</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Transition Curtains -->
+  <div class="page-transition">
+    <div class="transition-curtain curtain-1"></div>
+    <div class="transition-curtain curtain-2"></div>
+    <div class="transition-curtain curtain-3"></div>
+    <div class="transition-curtain curtain-4"></div>
+    <div class="transition-curtain curtain-5"></div>
+  </div>
+
+  <div id="app">
+    <!-- Staggered Menu will be injected here via JavaScript -->
+    
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+      <div id="container"></div>
+      <div id="stats"></div>
+      <div id="ui-container"></div>
+
+      <div class="header-area">
+        <div class="logo-container" id="theme-toggle">
+          <div class="logo-circles">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+          </div>
+        </div>
+        <div class="center-logo">
+          <h1 id="logo-text">Cosmic CS.</h1>
+        </div>
+      </div>
+
+      <div class="hero">
+        <h1>Where algorithms become<br>intelligence and code<br>becomes innovation</h1>
+        <h2 id="story-text">
+          our system processes at coordinates (0.00, 0.00)<br>
+          computational field extends 0.10 units into digital space<br>
+          currently interfacing with 0 other entities
+        </h2>
+      </div>
+
+
+      <div class="coordinates">
+        <p>CS Universe • Active</p>
+        <p>where innovation flows</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section-container">
+            <h2>About the Department</h2>
+        
+        <div class="about-hero">
+          <div class="about-hero-image">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&h=600&fit=crop" alt="Computer Lab" class="parallax-img" data-speed="0.5">
+            <div class="about-hero-overlay"></div>
+          </div>
+          <div class="about-hero-content">
+            <h3>Leading Innovation in Computer Science</h3>
+            <p>Shaping the future of technology through cutting-edge research and education</p>
+          </div>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-card about-card-large">
+            <div class="about-card-image">
+              <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=600&fit=crop" alt="Students Working" class="parallax-img" data-speed="0.3">
+            </div>
+            <div class="about-card-content">
+              <h3>Our Mission</h3>
+              <p>To educate the next generation of computer scientists and engineers who will shape the future of technology through innovation, research, and practical application.</p>
+            </div>
+          </div>
+          
+          <div class="about-card">
+            <div class="about-card-image">
+              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop" alt="Coding" class="parallax-img" data-speed="0.4">
+            </div>
+            <div class="about-card-content">
+              <h3>State-of-the-Art Labs</h3>
+              <p>Modern facilities equipped with the latest technology for hands-on learning.</p>
+            </div>
+          </div>
+          
+          <div class="about-card">
+            <div class="about-card-image">
+              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=400&fit=crop" alt="Team Collaboration" class="parallax-img" data-speed="0.35">
+            </div>
+            <div class="about-card-content">
+              <h3>Collaborative Learning</h3>
+              <p>Foster teamwork and innovation through group projects and research.</p>
+            </div>
+          </div>
+          
+          <div class="about-card about-card-wide">
+            <div class="about-card-image">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop" alt="Data Analysis" class="parallax-img" data-speed="0.45">
+            </div>
+            <div class="about-card-content">
+              <h3>Research Excellence</h3>
+              <p>Leading research in AI, Machine Learning, Quantum Computing, and Cybersecurity with world-class faculty.</p>
+            </div>
+          </div>
+          
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-count="500">0</div>
+              <div class="stat-label">Students</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="50">0</div>
+              <div class="stat-label">Faculty</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="100">0</div>
+              <div class="stat-label">Research Projects</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="95">0</div>
+              <div class="stat-label">Placement Rate %</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+      <div class="section-container">
+        <h2>Courses & Curriculum</h2>
+        <div class="courses-grid" id="courses-grid">
+          <!-- Course cards will be generated here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty" class="section carousel-section">
+      <div class="section-container">
+        <h2>Our Faculty</h2>
+        <div class="faculty-carousel">
+          <div class="faculty-cards-wrapper"></div>
+        </div>
+        <div class="carousel-hint">Click & Hold to rotate • Move left/right to change direction</div>
+      </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section">
+      <div class="section-container">
+        <h2>Research & Innovation</h2>
+        
+        <!-- Research Hero -->
+        <div class="research-hero">
+          <div class="research-hero-content">
+            <h3>Pioneering the Future of Technology</h3>
+            <p>Our cutting-edge research drives innovation in AI, Quantum Computing, Cybersecurity, and emerging technologies that shape tomorrow's digital landscape.</p>
+            <div class="research-stats">
+              <div class="research-stat">
+                <span class="stat-number">$2.5M</span>
+                <span class="stat-label">Research Funding</span>
+              </div>
+              <div class="research-stat">
+                <span class="stat-number">25+</span>
+                <span class="stat-label">Active Projects</span>
+              </div>
+              <div class="research-stat">
+                <span class="stat-number">15</span>
+                <span class="stat-label">Patents Filed</span>
+              </div>
+            </div>
+          </div>
+          <div class="research-hero-image">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop" alt="Research Lab" class="parallax-img" data-speed="0.4">
+          </div>
+        </div>
+
+        <!-- Research Areas -->
+        <div class="research-areas">
+          <div class="research-category">
+            <h3>Artificial Intelligence & Machine Learning</h3>
+            <div class="research-grid">
+              <div class="research-card">
+                <div class="research-card-image">
+                  <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop" alt="Neural Networks">
+                </div>
+                <div class="research-card-content">
+                  <h4>Deep Learning & Neural Networks</h4>
+                  <p>Advanced algorithms for image recognition, natural language processing, and predictive analytics.</p>
+                  <div class="research-tags">
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">PyTorch</span>
+                    <span class="tag">Computer Vision</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="research-card">
+                <div class="research-card-image">
+                  <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" alt="Data Analytics">
+                </div>
+                <div class="research-card-content">
+                  <h4>Big Data Analytics</h4>
+                  <p>Processing massive datasets to extract meaningful insights and drive data-driven decisions.</p>
+                  <div class="research-tags">
+                    <span class="tag">Apache Spark</span>
+                    <span class="tag">Hadoop</span>
+                    <span class="tag">Data Mining</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-category">
+            <h3>Quantum Computing & Cryptography</h3>
+            <div class="research-grid">
+              <div class="research-card">
+                <div class="research-card-image">
+                  <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop" alt="Quantum Computing">
+                </div>
+                <div class="research-card-content">
+                  <h4>Quantum Algorithms</h4>
+                  <p>Developing quantum algorithms for optimization, cryptography, and complex computational problems.</p>
+                  <div class="research-tags">
+                    <span class="tag">Qiskit</span>
+                    <span class="tag">Quantum Gates</span>
+                    <span class="tag">Entanglement</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="research-card">
+                <div class="research-card-image">
+                  <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop" alt="Blockchain">
+                </div>
+                <div class="research-card-content">
+                  <h4>Blockchain & Cryptocurrency</h4>
+                  <p>Secure distributed systems, smart contracts, and digital currency technologies.</p>
+                  <div class="research-tags">
+                    <span class="tag">Ethereum</span>
+                    <span class="tag">Solidity</span>
+                    <span class="tag">DeFi</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-category">
+            <h3>Cybersecurity & Network Security</h3>
+            <div class="research-grid">
+              <div class="research-card">
+                <div class="research-card-image">
+                  <img src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=400&h=300&fit=crop" alt="Cybersecurity">
+                </div>
+                <div class="research-card-content">
+                  <h4>Threat Detection & Prevention</h4>
+                  <p>Advanced systems for identifying and preventing cyber threats in real-time.</p>
+                  <div class="research-tags">
+                    <span class="tag">SIEM</span>
+                    <span class="tag">Intrusion Detection</span>
+                    <span class="tag">Penetration Testing</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="research-card">
+                <div class="research-card-image">
+                  <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&h=300&fit=crop" alt="Network Security">
+                </div>
+                <div class="research-card-content">
+                  <h4>Network Security</h4>
+                  <p>Securing network infrastructure and developing protocols for safe data transmission.</p>
+                  <div class="research-tags">
+                    <span class="tag">VPN</span>
+                    <span class="tag">Firewall</span>
+                    <span class="tag">Zero Trust</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Innovations Showcase -->
+        <div class="innovations-showcase">
+          <h3>Recent Breakthroughs</h3>
+          <div class="innovations-grid">
+            <div class="innovation-item">
+              <div class="innovation-icon">🧠</div>
+              <h4>AI-Powered Medical Diagnosis</h4>
+              <p>Developed machine learning models that can detect diseases with 95% accuracy from medical images.</p>
+              <span class="innovation-status">Published in Nature Medicine</span>
+            </div>
+            
+            <div class="innovation-item">
+              <div class="innovation-icon">🔐</div>
+              <h4>Quantum-Safe Encryption</h4>
+              <p>Created post-quantum cryptographic algorithms resistant to quantum computer attacks.</p>
+              <span class="innovation-status">Patent Filed</span>
+            </div>
+            
+            <div class="innovation-item">
+              <div class="innovation-icon">🌐</div>
+              <h4>IoT Security Framework</h4>
+              <p>Built comprehensive security framework for Internet of Things devices in smart cities.</p>
+              <span class="innovation-status">Industry Partnership</span>
+            </div>
+            
+            <div class="innovation-item">
+              <div class="innovation-icon">🚀</div>
+              <h4>Autonomous Vehicle AI</h4>
+              <p>Advanced computer vision and decision-making algorithms for self-driving vehicles.</p>
+              <span class="innovation-status">Tech Transfer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Projects -->
+    <section id="projects" class="section">
+      <div class="section-container">
+        <h2>Student Projects</h2>
+        
+        <!-- Projects Hero -->
+        <div class="projects-hero">
+          <div class="projects-hero-content">
+            <h3>Innovation in Action</h3>
+            <p>Explore groundbreaking projects developed by our talented students, showcasing real-world applications of computer science concepts.</p>
+          </div>
+          <div class="projects-hero-image">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop" alt="Student Coding" class="parallax-img" data-speed="0.4">
+          </div>
+        </div>
+        
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-card-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop" alt="Data Analytics Dashboard">
+              <div class="project-overlay">
+                <span class="project-category">Data Science</span>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <h3>Smart Analytics Dashboard</h3>
+              <p>Real-time data visualization platform for business intelligence with interactive charts and predictive analytics.</p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">D3.js</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-card-image">
+              <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop" alt="Mobile App Development">
+              <div class="project-overlay">
+                <span class="project-category">Mobile App</span>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <h3>EcoTrack Mobile App</h3>
+              <p>Environmental monitoring app that tracks carbon footprint and suggests eco-friendly alternatives using AI.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">TensorFlow</span>
+                <span class="tech-tag">APIs</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-card-image">
+              <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop" alt="Blockchain Project">
+              <div class="project-overlay">
+                <span class="project-category">Blockchain</span>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <h3>SecureVote Blockchain</h3>
+              <p>Decentralized voting system ensuring transparency and security in elections using smart contracts.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Solidity</span>
+                <span class="tech-tag">Web3.js</span>
+                <span class="tech-tag">Ethereum</span>
+                <span class="tech-tag">IPFS</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-card-image">
+              <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop" alt="AI Chatbot">
+              <div class="project-overlay">
+                <span class="project-category">AI/ML</span>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <h3>AI Study Assistant</h3>
+              <p>Intelligent chatbot that helps students with coursework, provides personalized learning paths and answers questions.</p>
+              <div class="project-tech">
+                <span class="tech-tag">OpenAI API</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">NLP</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-card-image">
+              <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop" alt="IoT Smart Home">
+              <div class="project-overlay">
+                <span class="project-category">IoT</span>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <h3>Smart Home Automation</h3>
+              <p>IoT-based home automation system controlling lights, temperature, and security through voice commands and mobile app.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Arduino</span>
+                <span class="tech-tag">Raspberry Pi</span>
+                <span class="tech-tag">MQTT</span>
+                <span class="tech-tag">React Native</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-card-image">
+              <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop" alt="Cybersecurity Tool">
+              <div class="project-overlay">
+                <span class="project-category">Cybersecurity</span>
+              </div>
+            </div>
+            <div class="project-card-content">
+              <h3>Network Security Scanner</h3>
+              <p>Automated vulnerability assessment tool that scans networks for security flaws and generates detailed reports.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Nmap</span>
+                <span class="tech-tag">SQLite</span>
+                <span class="tech-tag">Flask</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Header Section -->
+    <section class="gallery-header-section">
+      <div class="section-container">
+        <h2>Image Gallery</h2>
+        <p>Explore our campus, labs, and student life through these captivating images</p>
+      </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section id="gallery" class="section cloneable">
+      <div class="overlay">
+        <div class="overlay-inner">
+          <div class="overlay-count-row">
+            <div class="count-column">
+              <h2 data-slide-count="step" class="count-heading">01</h2>
+            </div>
+            <div class="count-row-divider"></div>
+            <div class="count-column">
+              <h2 data-slide-count="total" class="count-heading">04</h2>
+            </div>
+          </div>
+          <div class="overlay-nav-row">
+            <button aria-label="previous slide" data-slider="button-prev" class="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 17 12" fill="none" class="button-arrow">
+                <path d="M6.28871 12L7.53907 10.9111L3.48697 6.77778H16.5V5.22222H3.48697L7.53907 1.08889L6.28871 0L0.5 6L6.28871 12Z" fill="currentColor"></path>
+              </svg>
+              <div class="button-overlay">
+                <div class="overlay-corner"></div>
+                <div class="overlay-corner top-right"></div>
+                <div class="overlay-corner bottom-left"></div>
+                <div class="overlay-corner bottom-right"></div>
+              </div>
+            </button>
+            <button aria-label="next slide" data-slider="button-next" class="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewbox="0 0 17 12" fill="none" class="button-arrow next">
+                <path d="M6.28871 12L7.53907 10.9111L3.48697 6.77778H16.5V5.22222H3.48697L7.53907 1.08889L6.28871 0L0.5 6L6.28871 12Z" fill="currentColor"></path>
+              </svg>
+              <div class="button-overlay">
+                <div class="overlay-corner"></div>
+                <div class="overlay-corner top-right"></div>
+                <div class="overlay-corner bottom-left"></div>
+                <div class="overlay-corner bottom-right"></div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="slider-wrap">
+          <div data-slider="list" class="slider-list">
+            <div data-slider="slide" class="slider-slide">
+              <div class="slide-inner">
+                <img src="https://cdn.prod.website-files.com/674d847bf8e817966d307714/674d90f74ff2fe8b0b912b97_slide-1.avif" loading="lazy" sizes="(max-width: 479px) 100vw, 560px" alt="CS Department Lab">
+                <div class="slide-caption">
+                  <div class="caption-dot"></div>
+                  <p class="caption">Innovation Lab</p>
+                </div>
+              </div>
+            </div>
+            <div data-slider="slide" class="slider-slide active">
+              <div class="slide-inner">
+                <img src="https://cdn.prod.website-files.com/674d847bf8e817966d307714/674d90f7cf52dd961b48a1e2_slide-2.avif" loading="lazy" alt="Research Center">
+                <div class="slide-caption">
+                  <div class="caption-dot"></div>
+                  <p class="caption">Research Center</p>
+                </div>
+              </div>
+            </div>
+            <div data-slider="slide" class="slider-slide">
+              <div class="slide-inner">
+                <img src="https://cdn.prod.website-files.com/674d847bf8e817966d307714/674d90f7f7cce73267703347_slide-3.avif" loading="lazy" sizes="(max-width: 479px) 100vw, 560px" alt="AI Lab">
+                <div class="slide-caption">
+                  <div class="caption-dot"></div>
+                  <p class="caption">AI Lab</p>
+                </div>
+              </div>
+            </div>
+            <div data-slider="slide" class="slider-slide">
+              <div class="slide-inner">
+                <img src="https://cdn.prod.website-files.com/674d847bf8e817966d307714/674d90f7ccfd203c82a46798_slide-4.avif" loading="lazy" sizes="(max-width: 479px) 100vw, 560px" alt="Student Projects">
+                <div class="slide-caption">
+                  <div class="caption-dot"></div>
+                  <p class="caption">Student Projects</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="section-container">
+        <h2>Get In Touch</h2>
+        <p class="contact-subtitle">Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        
+        <div class="contact-content">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-grid">
+            <div class="contact-info-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+              </div>
+              <h3>Call Us</h3>
+              <p>+1 (555) 123-4567</p>
+              <p class="secondary">Mon-Fri 9am-6pm</p>
+            </div>
+            
+            <div class="contact-info-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3>Email Us</h3>
+              <p>info@cosmiccs.edu</p>
+              <p class="secondary">admissions@cosmiccs.edu</p>
+            </div>
+            
+            <div class="contact-info-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3>Visit Us</h3>
+              <p>123 Tech Boulevard</p>
+              <p class="secondary">Silicon Valley, CA 94025</p>
+            </div>
+            
+            <div class="contact-info-card">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3>Office Hours</h3>
+              <p>Monday - Friday</p>
+              <p class="secondary">9:00 AM - 6:00 PM PST</p>
+            </div>
+          </div>
+          
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <div class="contact-form-container">
+              <h3>Send us a Message</h3>
+              <form id="contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <select id="subject" name="subject" required>
+                      <option value="">Select a subject</option>
+                      <option value="admissions">Admissions Inquiry</option>
+                      <option value="research">Research Collaboration</option>
+                      <option value="general">General Question</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+                </div>
+                <button type="submit" id="submit-btn" class="submit-button">
+                  <span>Send Message</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="footer-newsletter">
+          <h3>Stay Updated</h3>
+          <p>Subscribe to our newsletter for the latest updates on courses, research, and events.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">
+              <span>Subscribe</span>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-main">
+        <div class="footer-container">
+          <div class="footer-section footer-brand">
+            <div class="footer-logo">
+              <h4>Cosmic CS</h4>
+              <div class="logo-accent"></div>
+            </div>
+            <p>Pioneering the future of Computer Science education through innovation, research, and excellence in technology.</p>
+            <div class="footer-social-links">
+              <a href="#" aria-label="Twitter" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a href="#" aria-label="LinkedIn" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a href="#" aria-label="GitHub" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"></path>
+                </svg>
+              </a>
+              <a href="#" aria-label="YouTube" class="social-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M23 9.71a8.5 8.5 0 00-.91-4.13 2.92 2.92 0 00-1.72-1A78.36 78.36 0 0012 4.27a78.45 78.45 0 00-8.34.3 2.87 2.87 0 00-1.46.74c-.9.83-1 2.25-1.1 3.45a48.29 48.29 0 000 6.48 9.55 9.55 0 00.3 2.12 2.93 2.93 0 001.45 1.38 78.3 78.3 0 008.34.26 79.67 79.67 0 008.34-.26 2.92 2.92 0 001.72-1A8.5 8.5 0 0024 14.29a48.29 48.29 0 00-.03-4.58zM9.74 14.85V8.66l5.92 3.11c-1.66.92-3.85 1.96-5.92 3.08z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#research">Research</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-section">
+            <h4>Programs</h4>
+            <ul class="footer-links">
+              <li><a href="#">Bachelor's Degree</a></li>
+              <li><a href="#">Master's Degree</a></li>
+              <li><a href="#">PhD Programs</a></li>
+              <li><a href="#">Online Courses</a></li>
+              <li><a href="#">Certifications</a></li>
+              <li><a href="#">Workshops</a></li>
+          </ul>
+        </div>
+          
+        <div class="footer-section">
+            <h4>Resources</h4>
+            <ul class="footer-links">
+              <li><a href="#">Student Portal</a></li>
+              <li><a href="#">Library</a></li>
+              <li><a href="#">Career Services</a></li>
+              <li><a href="#">Alumni Network</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+          
+        <div class="footer-section">
+            <h4>Contact Info</h4>
+            <ul class="footer-contact">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span>123 Tech Boulevard<br>Silicon Valley, CA 94025</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <span>+1 (555) 123-4567</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span>info@cosmiccs.edu</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-bottom-content">
+        <p>&copy; 2025 Cosmic CS Universe. All rights reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AI Assistant -->
+    <div id="ai-assistant" class="ai-assistant">
+      <div class="ai-assistant-icon">
+        <div class="ai-icon"></div>
+      </div>
+      <div class="ai-assistant-window">
+        <div class="ai-assistant-header">
+          <h3>Department AI Assistant</h3>
+          <button class="close-btn">×</button>
+        </div>
+        <div class="ai-assistant-messages"></div>
+        <div class="ai-assistant-input">
+          <input type="text" placeholder="Ask me anything about the department...">
+          <button class="send-btn">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
