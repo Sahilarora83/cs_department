@@ -20,7 +20,7 @@ const departmentInfo = {
     'Quantum Computing'
   ],
   faculty: [
-    'Dr. Ada Lovelace - Department Chair, Quantum Computing',
+    'Dr. Reema Thareja - Department Chair, Quantum Computing',
     'Dr. Alan Turing - Professor, Artificial Intelligence',
     'Dr. Grace Hopper - Associate Professor, Compiler Design',
     'Dr. John von Neumann - Professor, Computer Architecture',
